@@ -14,6 +14,7 @@ export const Filter = () => {
       <StyledInput
         type="text"
         name={filter}
+        value={filter}
         onChange={changeFilterInput}
         placeholder="Find contacts by name"
       />
